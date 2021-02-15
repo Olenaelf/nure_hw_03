@@ -55,7 +55,7 @@ img {
 }
 
 body {
-    background-color: #e7deea;
+    background-color: #dfd2e4;
 }
 
 /*form*/
@@ -63,7 +63,7 @@ body {
 .field {
     background-color: #ffffff;
     width: 400px;
-    height: 500px;
+    height: 640px;
     position: relative;
     top: 30px;
     left: 50px;
@@ -84,15 +84,9 @@ p {
     color: #ffffff;
 }
 
-select {
-    position: relative;
-    top: 650px;
-    left: 50px;
-}
-
 input {
     position: absolute;
-    top: 160px;
+    top: 130px;
     left: 50px;
     display: inline-block;
     width: 300px;
@@ -101,29 +95,69 @@ input {
 
 input + input {
     position: absolute;
-    top: 230px;
+    top: 190px;
     left: 50px;
 }
 
 input + input + input {
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 50px;
+}
+
+select {
+    position: relative;
+    top: 210px;
+    left: 50px;
+    width: 308px;
+    height: 40px;
+}
+
+textarea {
+    position: absolute;
+    top: 365px;
+    left: 50px;
+    width: 300px;
+    height: 60px;
+    resize: none;
+}
+
+textarea:focus {
+    background: #f9eefd;
+}
+
+button {
+    width: 308px;
+    height: 40px;
+    background-color: #cfaeec;
+    position: absolute;
+    top: 445px;
+    left: 50px;
+    font-size: large;
+}
+
+button:hover {
+    background: #894bc1;
+}
+
+div input[type='checkbox'] {
+    position: absolute;
+    top: 495px;
+    left: -92px;
+    height: 25px;
+}
+label {
+    position: absolute;
+    top: 500px;
+    width: 285px;
+    left: 85px;
 }
 
 input + input + input + input {
     position: absolute;
-    top: 430px;
+    top: 560px;
     left: 50px;
     font-size: large;
-}
-
-button {
-    width: 300px;
+    width: 308px;
     height: 40px;
-    background-color: #cfaeec;
-    position: absolute;
-    top: 370px;
-    left: 50px;
-    font-size: large;
 }
