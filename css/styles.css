@@ -91,6 +91,7 @@ input {
     display: inline-block;
     width: 300px;
     height: 40px;
+    padding-left: 10px;
 }
 
 input + input {
@@ -111,6 +112,10 @@ select {
     left: 50px;
     width: 308px;
     height: 40px;
+    padding-left: 10px;
+    appearance: none;
+    background: url('../images/arrow1.svg') no-repeat right center;
+    /* outline: 0; */
 }
 
 textarea {
@@ -120,6 +125,7 @@ textarea {
     width: 300px;
     height: 60px;
     resize: none;
+    padding-left: 10px;
 }
 
 textarea:focus {
@@ -161,3 +167,77 @@ input + input + input + input {
     width: 308px;
     height: 40px;
 }
+
+.checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* .checkbox:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 1px solid #000;
+    background-color: #fff;
+} */
+
+/* input[type='checkbox']:checked,
+input[type='checkbox']:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+input[type='checkbox']:checked + label,
+input[type='checkbox']:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+input[type='checkbox']:checked + label:before,
+input[type='checkbox']:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+input[type='checkbox']:checked + label:before,
+input[type='checkbox']:not(:checked) + label:before {
+    border-radius: 2px;
+}
+input[type='checkbox']:checked + label:after,
+input[type='checkbox']:not(:checked) + label:after {
+    content: '';
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input[type='checkbox']:checked + label:after,
+input[type='checkbox']:not(:checked) + label:after {
+    left: 3px;
+    top: 4px;
+    width: 10px;
+    height: 5px;
+    border-radius: 1px;
+    border-left: 4px solid #e145a3;
+    border-bottom: 4px solid #e145a3;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+input[type='checkbox']:checked + label:after {
+    opacity: 1;
+}
+input[type='checkbox']:not(:checked) + label:after {
+    opacity: 0;
+} */
